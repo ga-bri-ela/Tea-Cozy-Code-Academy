@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: seashell
+}
+
+html {
+    background: black;
+    font-family: helvetica;
+    color: seashell;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    padding-top: 15px;
+    top: 0;
+    height: 60px;
+    z-index: 6;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+.navigation li {
+    margin: 10px;
+    float: right;
+    text-decoration: underline;
+    position: relative;
+    top: -40px;
+
+}
+
+.banner {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg') ;
+    height: 700px;
+    width: 1200px;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    margin: auto;
+
+}
+
+.banner-info {
+    display: block;
+    width: 1200px;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    z-index: 5;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.tea-of-the-month{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tea-of-the-month p {
+    font-weight: bold;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+
+figure, figcaption {
+    margin: 10px;
+}
+
+
+h2, h4, h5, figcaption {
+    font-weight: bold;
+}
+
+.banner-text {
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 125px;
+    z-index: 5;
+
+}
+
+.locations{
+   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg') ;   
+   height: 500px;
+   width: 100%;
+   text-align: center;
+   display: inline-flex;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+   z-index: 3;
+}
+
+.locations p{
+    margin: 10px;
+}
+
+.downtown, .east-bayside, .oakdale {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.contact{
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    margin: 20px;
+}
